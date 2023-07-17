@@ -47,6 +47,7 @@ body {
     align-items: center;
     z-index: 1;
     transition: .2s ease-in-out;
+    cursor: pointer;
 }
 
 .img-wrapper .hover-content{
