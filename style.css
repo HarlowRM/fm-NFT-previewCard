@@ -1,0 +1,131 @@
+/*BASE SETTINGS*/
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #fff; */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18PX;
+    background-color: hsl(217, 54%, 11%);
+}
+
+/*CARD/NFT SETTINGS*/
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 25px;
+    margin: 0 .7em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 19px;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.img-wrapper > img:nth-child(1) {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.img-wrapper .hover-content {
+    position: absolute;
+    inset: 0;
+    background: hsl(178, 100%, 50%, .5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+
+.img-wrapper .hover-content{
+    opacity: 0;
+}
+
+.img-wrapper:hover .hover-content{
+    opacity: 1;
+}
+
+/*TEXT/LINK SETTINGS*/
+body h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 18px 0;
+}
+
+body a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+body a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+body p {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 18px;
+}
+
+div ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 18px;
+}
+
+ul li:nth-child(1) {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+ul li:nth-child(2) {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 9px;
+}
+
+.text {
+
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 18px;
+}
+
+/*CREATOR PROFILE SETTINGS*/
+.creator-profile img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.creator-profile {
+    display: flex;
+}
+
+.creator-profile p {
+    font-weight: 400;
+    padding-top: 7px;
+}
