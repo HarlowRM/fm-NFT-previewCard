@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid #fff; */
 }
 
 body {
@@ -14,7 +13,7 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
-/*CARD/NFT SETTINGS*/
+/*CARD/NFT PRVW SETTINGS*/
 .container {
     max-width: 375px;
     margin: 0 auto;
@@ -25,6 +24,7 @@ body {
     margin: 0 .7em;
     background-color: hsl(216, 50%, 16%);
     border-radius: 19px;
+    box-shadow: 10px 10px 80px 15px hsl(217, 54%, 7%);
 }
 
 .img-wrapper {
